@@ -1,0 +1,19 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .icon{
+        @apply border border-gray-200 p-4 rounded-full w-12 h-12 mr-3 text-[#ccc];
+    }
+    .input{
+        @apply outline-none bg-[#eee] px-4 py-[7px] w-full mb-4 rounded-full;
+    }
+    .button{
+        @apply px-14 py-2 my-2 bg-[#512da8] text-white rounded-2xl;
+    }
+    .heading{
+        @apply  text-center m-auto font-bold text-[38px] p-4;
+    } 
+}
